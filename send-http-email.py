@@ -41,4 +41,4 @@ def sendEmailTemplate(to, subject, context, template_file, template_folder=''):
     sendHTMLEmail(to, subject, rendered_html)
 
 context = {'name' : 'bob'}
-sendEmailTemplate('kellyjesse881@gmail.com', "Test Sub", context, 'user-receipt.html')
+sendEmailTemplate('', "Test Sub", context, 'user-receipt.html')
